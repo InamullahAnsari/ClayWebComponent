@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/clay/lib/css/atlas.css">
+    <script src="https://cdn.jsdelivr.net/npm/clay/lib/js/clay.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <section class="container">
+        <div class="row" style="margin-top: 50px;">
+            <div class="col-md-3">
+                <clay-alert closeable="true" message='This is a success closeable alert' spritemap="/images/icons/icons.svg" title="Success">
+                </clay-alert>
+            </div>
+            <div class="col-md-3">
+                <clay-image-card actionItems='[{"href": "#1", "label": "Edit", "separator": true}, {"href": "#1", "label": "Save"}]' imageAlt="thumbnail" imageSrc="/images/thumbnail_coffee.jpg" labels='[{"label": "Approved", "style": "success"}]' selectable="true" spritemap="/images/icons/icons.svg"
+                    stickerIcon="document-image" stickerStyle="danger" subtitle="Author Action" title="thumbnail_coffee.jpg">
+                </clay-image-card>
+            </div>
+            <div class="col-md-3">
+                <clay-progress-bar spritemap="/images/icons/icons.svg" value="30">
+                </clay-progress-bar>
+            </div>
+            <div class="col-md-3">
+
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
